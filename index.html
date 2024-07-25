@@ -16,20 +16,25 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm position-fixed text-light w-100 custom-bg2 bg-sm-transparent z-3 no-wrap" aria-label="Top Navbar">
-    <div class="container-fluid col-sm-10">
-      <a class="navbar-brand me-3 text-light col-6 col-sm-2" href="#"">Brand Name</a>
-      <button class="navbar-toggler custom-toggler" type="button">
-        <img src="./assets/svg/search.svg">
-      </button>
-      <button class="navbar-toggler custom-toggler" type="button">
-        <img src="./assets/svg/shopping.svg">
-      </button>     
-      <button class="navbar-toggler custom-toggler" type="button">
-        <img src="./assets/svg/menu.svg">
-      </button>
-      <div class="col-12 col-sm-auto d-flex justify-content-center">
-        <ul class="navbar-nav d-flex align-items-center my-5 my-sm-0">
+  <nav class="navbar navbar-expand-lg position-fixed text-light w-100 custom-bg2 bg-lg-transparent z-3 no-wrap p-0"
+    aria-label="Top Navbar">
+    <div class="col-12 col-lg-11 d-lg-flex mx-lg-auto">
+      <div class="navbar-top col-12 col-lg-auto d-flex justify-content-between justify-content-lg-start p-3">
+        <a class="navbar-brand me-3 text-light col-6 col-lg-2 font-weight-bold" href="#"">Brand Name</a>
+        <div class="d-flex d-lg-none">
+          <button class="navbar-toggler custom-toggler" type="button">
+          <img src="./assets/svg/search.svg">
+          </button>
+          <button class="navbar-toggler custom-toggler" type="button">
+            <img src="./assets/svg/shopping.svg">
+          </button>
+          <div class="navbar-toggler custom-toggler d-flex align-items-center">
+            <input class="modal" id="hamburger-toggle" type="checkbox" /><label for="hamburger-toggle" style="width:24px; height:14px" style="cursor:pointer"></label>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 justify-content-center modal-wrapper d-lg-flex">
+        <ul class="navbar-nav d-flex align-items-center my-5 my-lg-0">
           <li class="nav-item">
             <a class="nav-link text-light" aria-current="page" href="#">Home</a>
           </li>
@@ -44,8 +49,8 @@
           </li>
         </ul>
       </div>
-      <div class="collapse navbar-collapse justify-content-end ms-5">
-        <a class="text-light text-decoration-none">Link</a>
+      <div class="collapse navbar-collapse justify-content-end ms-5 col-lg-2">
+        <a class="text-light text-decoration-none cursor-pointer">Link</a>
         <button type="button" class="square-btn text-light">Become a member →</button>
       </div>
     </div>
@@ -53,12 +58,14 @@
 
   <div class="hero">
     <div class="container col-xxl-10 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-end g-5 py-5">
-        <div class="d-none d-sm-block col-10 col-sm-8 col-lg-4">
+      <div class="row flex-lg-row align-items-end g-5 py-5">
+        <div class="d-none d-lg-block col-10 col-lg-8 col-lg-4">
         </div>
-        <div class="col-lg-8 d-flex flex-column align-items-center align-items-sm-start">
-          <h1 class="display-3 fw-bold lh-2 mb-5 text-light text-center text-sm-start">We Ensure A Best Insurance Service</h1>
-          <h4 class="lead text-light mb-4 col-9 col-sm-5 text-center text-sm-start lh-base">We know how large objects will act, but things on a small scale.</h4>
+        <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="display-3 fw-bold lh-2 mb-5 text-light text-center text-lg-start">We Ensure A Best Insurance
+            Service</h1>
+          <h4 class="lead text-light mb-4 col-9 col-lg-5 text-center text-lg-start lh-base">We know how large objects
+            will act, but things on a small scale.</h4>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" class="hero-btn">Get Quote Now</button>
             <button type="button" class="hero-btn-outline">Learn More</button>
@@ -69,21 +76,21 @@
   </div>
 
   <div class="container1">
-    <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-sm-between text-light">
-      <div class="d-flex flex-column align-items-center col-8 col-sm-3 mb-5 mb-sm-0">
-        <img src="./assets/svg/wallet.svg" class="mb-4 col-4 col-sm-2">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-lg-between text-light">
+      <div class="d-flex flex-column align-items-center col-8 col-lg-3 mb-5 mb-lg-0">
+        <img src="./assets/svg/wallet.svg" class="mb-4 col-4 col-lg-2">
         <h5 class="mb-3">Peace of Mind</h5>
-        <p class="text-center col-sm-9">So it really behaves like neither. Now we have given up.</p>
+        <p class="text-center col-lg-9">So it really behaves like neither. Now we have given up.</p>
       </div>
-      <div class="d-flex flex-column align-items-center col-8 col-sm-3 mb-5 mb-sm-0">
-        <img src="./assets/svg/save.svg" class="mb-4 col-4 col-sm-2">
+      <div class="d-flex flex-column align-items-center col-8 col-lg-3 mb-5 mb-lg-0">
+        <img src="./assets/svg/save.svg" class="mb-4 col-4 col-lg-2">
         <h5 class="mb-3">Set For Life</h5>
-        <p class="text-center col-sm-9">They were used to create the machines that launched</p>
+        <p class="text-center col-lg-9">They were used to create the machines that launched</p>
       </div>
-      <div class="d-flex flex-column align-items-center col-8 col-sm-3 mb-5 mb-sm-0">
-        <img src="./assets/svg/people.svg" class="mb-4 col-4 col-sm-2">
+      <div class="d-flex flex-column align-items-center col-8 col-lg-3 mb-5 mb-lg-0">
+        <img src="./assets/svg/people.svg" class="mb-4 col-4 col-lg-2">
         <h5>100% Satisfaction</h5>
-        <p class="text-center col-sm-9">So it really behaves like neither. Now we have given up.</p>
+        <p class="text-center col-lg-9">So it really behaves like neither. Now we have given up.</p>
       </div>
     </div>
   </div>
@@ -91,13 +98,14 @@
   <div class="container2 text-light">
     <div class="container d-flex flex-column align-items-center">
       <div class="d-flex flex-column justify-content-center align-items-center col-10">
-        <h2 class="text-center mb-3 col-10">What 
+        <h2 class="text-center mb-3 col-10">What
           Clients Say</h2>
-        <p class="text-center col-sm-6">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+        <p class="text-center col-lg-6">Problems trying to resolve the conflict between the two major realms of
+          Classical physics: Newtonian mechanics</p>
       </div>
-      <div class="d-flex flex-column flex-sm-row">
-        <div class="p-3 p-sm-5 position-relative col-sm-6">
-          <img class="d-none d-sm-block position-absolute top-20 start-0 z-2 mt-4" src="./assets/png/user-1.png">
+      <div class="d-flex flex-column flex-lg-row">
+        <div class="p-3 p-lg-5 position-relative col-lg-6">
+          <img class="d-none d-lg-block position-absolute top-20 start-0 z-2 mt-4" src="./assets/png/user-1.png">
           <div class="card px-5 py-4">
             <h3 class="mb-1">Regina Miles</h3>
             <h6 class="mb-3">Designer</h6>
@@ -108,16 +116,16 @@
               <img src="./assets/svg/star.svg">
               <img src="./assets/svg/star-outline.svg">
             </div>
-            <p>This proved to be impossible using the traditional 
-              concepts of space and time. Einstein developed a 
-              new view of time first and then space. This proved 
-              to be impossible using the traditional concepts of 
-              space and time. Einstein developed a new view 
+            <p>This proved to be impossible using the traditional
+              concepts of space and time. Einstein developed a
+              new view of time first and then space. This proved
+              to be impossible using the traditional concepts of
+              space and time. Einstein developed a new view
               of time first and then space.</p>
           </div>
         </div>
-        <div class="p-3 p-sm-5 position-relative col-sm-6">
-          <img class="d-none d-sm-block position-absolute top-20 start-0 z-2 mt-4" src="./assets/png/user-2.png">
+        <div class="p-3 p-lg-5 position-relative col-lg-6">
+          <img class="d-none d-lg-block position-absolute top-20 start-0 z-2 mt-4" src="./assets/png/user-2.png">
           <div class="card px-5 py-4">
             <h3 class="mb-1">Regina Miles</h3>
             <h6 class="mb-3">Designer</h6>
@@ -128,11 +136,11 @@
               <img src="./assets/svg/star.svg">
               <img src="./assets/svg/star-outline.svg">
             </div>
-            <p>This proved to be impossible using the traditional 
-              concepts of space and time. Einstein developed a 
-              new view of time first and then space. This proved 
-              to be impossible using the traditional concepts of 
-              space and time. Einstein developed a new view 
+            <p>This proved to be impossible using the traditional
+              concepts of space and time. Einstein developed a
+              new view of time first and then space. This proved
+              to be impossible using the traditional concepts of
+              space and time. Einstein developed a new view
               of time first and then space.</p>
           </div>
         </div>
@@ -143,27 +151,36 @@
   <section style="background: #252b42;" class="py-5">
     <div class="container-fluid py-5">
       <h2 class="text-center text-white fw-semibold fs-2 mb-3">Industry</h2>
-      <p class="text-center text-white mx-auto" style="max-width: 480px; margin-bottom: 100px;">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+      <p class="text-center text-white mx-auto" style="max-width: 480px; margin-bottom: 100px;">Problems trying to
+        resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
       <div class="row d-flex justify-content-center flex-wrap">
-        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2" style="background: url('./assets/jpg/post-1.jpg'); height: 452px; max-width: 330px; width: 100%;">
+        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2"
+          style="background: url('./assets/jpg/post-1.jpg'); height: 452px; max-width: 330px; width: 100%;">
           <span class="text-white fs-6 mb-3 fw-semi">Tax Management</span>
           <h3 class="text-white fs-5">Life Tips From Top Ten Adventure Travelers</h3>
-          <a href="#" class="btn px-5 py-3 text-white fw-semibold" style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
+          <a href="#" class="btn px-5 py-3 text-white fw-semibold"
+            style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
         </div>
-        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2" style="background: url('./assets/jpg/post-2.jpg'); height: 452px; max-width: 330px; width: 100%;">
+        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2"
+          style="background: url('./assets/jpg/post-2.jpg'); height: 452px; max-width: 330px; width: 100%;">
           <span class="text-white fs-6 mb-3 fw-semi">Tax Management</span>
           <h3 class="text-white fs-5">Life Tips From Top Ten Adventure Travelers</h3>
-          <a href="#" class="btn px-5 py-3 text-white fw-semibold" style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
+          <a href="#" class="btn px-5 py-3 text-white fw-semibold"
+            style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
         </div>
-        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2" style="background: url('./assets/jpg/post-3.jpg'); height: 452px; max-width: 330px; width: 100%;">
+        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2"
+          style="background: url('./assets/jpg/post-3.jpg'); height: 452px; max-width: 330px; width: 100%;">
           <span class="text-white fs-6 mb-3 fw-semi">Tax Management</span>
           <h3 class="text-white fs-5">Life Tips From Top Ten Adventure Travelers</h3>
-          <a href="#" class="btn px-5 py-3 text-white fw-semibold" style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
+          <a href="#" class="btn px-5 py-3 text-white fw-semibold"
+            style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
         </div>
-        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2" style="background: url('./assets/jpg/post-4.jpg'); height: 452px; max-width: 330px; width: 100%;">
+        <div class="col mx-3 my-3 d-flex flex-column justify-content-end p-4 gap-2"
+          style="background: url('./assets/jpg/post-4.jpg'); height: 452px; max-width: 330px; width: 100%;">
           <span class="text-white fs-6 mb-3 fw-semi">Tax Management</span>
           <h3 class="text-white fs-5">Life Tips From Top Ten Adventure Travelers</h3>
-          <a href="#" class="btn px-5 py-3 text-white fw-semibold" style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
+          <a href="#" class="btn px-5 py-3 text-white fw-semibold"
+            style="background: #23A6F0; border-radius: 100px; max-width: fit-content;">View Project</a>
         </div>
       </div>
     </div>
@@ -172,9 +189,11 @@
   <section style="background: #252b42;" class="py-5">
     <div class="container py-5">
       <h2 class="text-center text-white fw-semibold fs-2 mb-3">Pricing</h2>
-      <p class="text-center text-white mx-auto" style="max-width: 480px; margin-bottom: 100px;">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+      <p class="text-center text-white mx-auto" style="max-width: 480px; margin-bottom: 100px;">Problems trying to
+        resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
       <div class="row mt-5">
-        <div class="col mx-3 rounded-3 p-5 text-center d-flex flex-column gap-4 mb-5 mb-sm-0" style="background: #ffffff;">
+        <div class="col mx-3 rounded-3 p-5 text-center d-flex flex-column gap-4 mb-5 mb-lg-0"
+          style="background: #ffffff;">
           <div>
             <h3 class="mb-5 fw-bold" style="color: #252B42;">FREE</h3>
             <p style="max-width: 180px; color: #737373;" class="mx-auto fw-bold">Organize across all apps by hand</p>
@@ -209,8 +228,11 @@
             </div>
           </div>
         </div>
-        <div class="col mx-3 rounded-3 p-5 text-center d-flex flex-column gap-4 mb-5 mb-sm-0" style="background: #ffffff; position: relative;">
-          <div style="position: absolute; background: #E77C40; width: 90px; height: 90px; border-radius: 100%; top: -35px; right: 20px;" class="d-flex justify-content-center align-items-center text-white fs-4 fw-semibold">New</div>
+        <div class="col mx-3 rounded-3 p-5 text-center d-flex flex-column gap-4 mb-5 mb-lg-0"
+          style="background: #ffffff; position: relative;">
+          <div
+            style="position: absolute; background: #E77C40; width: 90px; height: 90px; border-radius: 100%; top: -35px; right: 20px;"
+            class="d-flex justify-content-center align-items-center text-white fs-4 fw-semibold">New</div>
           <div>
             <h3 class="mb-5 fw-bold" style="color: #252B42;">Silver</h3>
             <p style="max-width: 180px; color: #737373;" class="mx-auto fw-bold">Organize across all apps by hand</p>
@@ -245,7 +267,8 @@
             </div>
           </div>
         </div>
-        <div class="col mx-3 rounded-3 p-5 text-center d-flex flex-column gap-4 mb-5 mb-sm-0" style="background: #ffffff;">
+        <div class="col mx-3 rounded-3 p-5 text-center d-flex flex-column gap-4 mb-5 mb-lg-0"
+          style="background: #ffffff;">
           <div>
             <h3 class="mb-5 fw-bold" style="color: #252B42;">GOLD</h3>
             <p style="max-width: 180px; color: #737373;" class="mx-auto fw-bold">Organize across all apps by hand</p>
@@ -290,30 +313,36 @@
       <h2 class="fw-bold mb-5">Make an Appointment</h2>
       <form action="#" style="max-width: 600px">
         <div class="row">
-          <div class="row">
-            <div class="col">
-              <input type="text" name="name" placeholder="Full Name *" class="px-3 py-3 rounded-2" style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
+          <div class="row d-flex flex-column flex-lg-row">
+            <div class="col mb-3 mb-lg-0">
+              <input type="text" name="name" placeholder="Full Name *" class="px-3 py-3 rounded-2"
+                style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
             </div>
             <div class="col">
-              <input type="email" name="email" placeholder="Email *" class="px-3 py-3 rounded-2" style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
+              <input type="email" name="email" placeholder="Email *" class="px-3 py-3 rounded-2"
+                style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
             </div>
           </div>
-          <div class="row mt-3">
-            <div class="col">
-              <select name="please" id="please" class="px-3 py-3 rounded-2" style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
+          <div class="row mt-3 flex-column flex-lg-row">
+            <div class="col mb-3 mb-lg-0">
+              <select name="please" id="please" class="px-3 py-3 rounded-2"
+                style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
                 <option value="Please Select">Please Select</option>
               </select>
             </div>
             <div class="col">
-              <select name="availability" id="availability" class="px-3 py-3 rounded-2" style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
+              <select name="availability" id="availability" class="px-3 py-3 rounded-2"
+                style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9;">
                 <option value="4:00">4:00 Available</option>
               </select>
             </div>
           </div>
           <div class="row mt-3">
             <div class="col">
-              <textarea name="message" id="message" placeholder="Message" class="px-3 py-3 rounded-2" style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9; resize: none;" rows="6"></textarea>
-              <a href="#" class="btn px-5 py-3 mt-5 text-white fw-semibold" style="background: #23A6F0; max-width: fit-content;">Book Appointment</a>
+              <textarea name="message" id="message" placeholder="Message" class="px-3 py-3 rounded-2"
+                style="width: 100%; border: 1px solid #E6E6E6; background: #F9F9F9; resize: none;" rows="6"></textarea>
+              <a href="#" class="btn px-5 py-3 mt-5 text-white fw-semibold"
+                style="background: #23A6F0; max-width: fit-content;">Book Appointment</a>
             </div>
           </div>
         </div>
@@ -335,8 +364,8 @@
     </div>
     <div class="container-fluid" style="background: #252b42;">
       <div class="container pt-5 pb-5 fw-semibold">
-        <div class="row">
-          <div class="col">
+        <div class="row d-flex flex-column flex-lg-row">
+          <div class="col mb-4 mb-lg-0">
             <h3 class="text-white fs-5 mb-3 fw-bold">Company Info</h3>
             <ul class="list-unstyled d-flex gap-2 flex-column">
               <li><a href="#" class="text-decoration-none text-white">About Us</a></li>
@@ -345,7 +374,7 @@
               <li><a href="#" class="text-decoration-none text-white">Blog</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col mb-4 mb-lg-0">
             <h3 class="text-white fs-5 mb-3 fw-bold">Legal</h3>
             <ul class="list-unstyled d-flex gap-2 flex-column">
               <li><a href="#" class="text-decoration-none text-white">About Us</a></li>
@@ -354,7 +383,7 @@
               <li><a href="#" class="text-decoration-none text-white">Blog</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col mb-4 mb-lg-0">
             <h3 class="text-white fs-5 mb-3 fw-bold">Features</h3>
             <ul class="list-unstyled d-flex gap-2 flex-column">
               <li><a href="#" class="text-decoration-none text-white">Business Marketing</a></li>
@@ -363,7 +392,7 @@
               <li><a href="#" class="text-decoration-none text-white">Unlimited Support</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col mb-4 mb-lg-0">
             <h3 class="text-white fs-5 mb-3 fw-bold">Resources</h3>
             <ul class="list-unstyled d-flex gap-2 flex-column">
               <li><a href="#" class="text-decoration-none text-white">IOS & Android</a></li>
@@ -372,7 +401,7 @@
               <li><a href="#" class="text-decoration-none text-white">API</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col mb-4 mb-lg-0">
             <h3 class="text-white fs-5 mb-3 fw-bold">Get In Touch</h3>
             <ul class="list-unstyled d-flex gap-3 flex-column">
               <li class="d-flex align-items-center gap-2">
@@ -406,7 +435,9 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
