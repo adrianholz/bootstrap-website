@@ -94,7 +94,7 @@ body:has(#hamburger-toggle:checked) {
 
 @media (min-width: 992px) {
   .navbar {
-    background-color: rgba(0,0,0,.2);
+    background-color: rbba(0,0,0,.2);
   }
   .nav-link {
     margin-right: 25px;
